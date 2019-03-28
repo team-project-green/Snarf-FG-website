@@ -72,4 +72,45 @@ footer {
   width: 100%;
   height: 100px;
   line-height: 30px;
+  background-color: #282828!important;
+  color:white;
+  text-align:center
+}
+
+.youtubeframe {
+  padding: 20px;
+  padding-top: 100px;
+  width: 75em;
+  height: 47em;
+  float: left;
+}
+
+.youtuberecent {
+  padding: 40px;
+  padding-top: 100px;
+}
+
+.sidetextbigtop {
+  color:whitesmoke;
+  font-size: 2em;
+  padding-top: 4em;
+  text-align: center;
+  float: none;
+}
+
+.sidetextbig {
+  color:whitesmoke;
+  font-size: 2em;
+  padding-top: 1.5em;
+  text-align: center;
+  float: none;
+}
+
+.sidetextsmall {
+  color:whitesmoke;
+  font-size: 1em;
+  padding-top: 1em;
+  text-align:center;
+  padding-right: 1.5em;
+  float: none;
 }
