@@ -1,0 +1,75 @@
+/* HeyItsShuga Bootstrap Theme - (c) 2017 HeyItsShuga */
+
+.pJumbotron {
+  font-size: 25px!important;
+}
+
+.navbar {
+  background-color: #4CFF00!important;
+}
+
+.navbar {
+  padding-left: 5vw;
+  padding-right: 5vw
+}
+
+.jumbotron {
+  background-color: #620066;
+  color: #e4defc;
+}
+
+.navbar-toggler {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.jumbotron {
+  border-radius: 0px;
+}
+
+.card-body {
+  /*margin-right: 10px;*/
+  padding: 20px;
+  background-position:center!important;
+  background-size:cover!important;
+  padding-top: 100px!important;
+  color: 620066;
+}
+
+.card-link {
+  color: cyan!important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.disabled {
+  cursor: no-drop;
+  color: green!important;
+}
+
+/* Sticky footer styles: 
+-------------------------------------------------- */
+/* https://v4-alpha.getbootstrap.com/examples/sticky-footer-navbar/ */
+
+/* Wrapper for page content to push down footer */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  line-height: 30px;
+}
