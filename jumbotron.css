@@ -14,8 +14,8 @@
 }
 
 .jumbotron {
-  background-color: #620066;
-  color: #e4defc;
+  background-color: #404040;
+  color: #A0A0A0;
 }
 
 .navbar-toggler {
@@ -33,7 +33,7 @@
   background-position:center!important;
   background-size:cover!important;
   padding-top: 100px!important;
-  color: 620066;
+  color: 404040;
 }
 
 .card-link {
