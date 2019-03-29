@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <meta name="Description" content="AverageFriends - Game Studio">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:title" content="AverageFriends - Game Studio">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jumbotron.css" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+    <link rel="mask-icon" color="black" href="/favicon.svg">
+    <meta name="theme-color" content="#000000">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@McNuggeter">
+    <meta name="twitter:creator" content="@McNuggeter">
+    <meta name="twitter:title" content="AverageFriends">
+    <meta name="twitter:description" content="Game Studio">
+    <meta name="twitter:image" content="http://igummie.github.io/logo.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="AverageFriends">
+    <link rel="apple-touch-icon-precomposed" href="icon.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="icon.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="shortcut-icon" href="AF.jpg">
+    <link rel="icon" href="AF.jpg">
+    <title>AverageMusic Bot</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button style="border: 0px" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <!-- logo goes here -->
+        <img src="AF.jpg" style="height:50px">
+        </a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href=index>Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="projects">Our Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="joinus">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://discordapp.com/invite/za5AMDF">Discord</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <br><br><br>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">AverageMusic Bot</h1><br>
+        <p class="pJumbotron">Along with AverageBot We have created a bot used for music. It is built of another bot called <a href=https://www.focabot.xyz/>Focabot</a> by <a href=https://github.com/TheBITLINK>TheBITLINK</a> It loads and runs faster than Focabot. Allowing faster playback. We've also added a few more settings for the filters.</p>
+		<p style="font-size:15px">AverageMusic can handle multiple types of audio platforms!<br>
+		▸YouTube Videos<br>
+		▸YouTube Playlists<br>
+		▸YouTube Streams<br>
+		▸SoundCloud Tracks<br>
+		▸SoundCloud Artists<br>
+		▸SoundCloud Playlists<br>
+		▸Bandcamp Tracks<br>
+		▸Bandcamp Albums<br>
+		▸Newgrounds<br>
+		▸Beatport<br>
+		▸Facebook Videos<br>
+		▸Twitter Videos<br>
+		▸Twitch Streams<br>
+		▸Twitch Clips/Vods<br>
+		▸Mixer Streams<br>
+		▸Mixer Vods (Clips Currently Not Working)<br>
+		▸Vanillo<br>
+		▸PeerTube/FramaTube<br>
+		▸FreeSound<br>
+		▸Streamable<br>
+		▸Discord Attachments (send the file with !play as message)<br>
+		▸Direct links to media files<br>
+		▸Most internet radios (with direct link)</p>
+        
+        <!-- <p><a class="btn btn-white btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="projects">Filters!</h2>
+          <p style="font-size:20px">AverageMusic allows you to use filters to enhance your music experience ~ This bot is built off of <a href=https://www.focabot.xyz/>Focabot</a> by <a href=https://github.com/TheBITLINK>TheBITLINK</a></p>
+		  
+		<p>For example:</p>
+		<p style="color:#6923ff">!play Gary come home | speed=1.5</p>
+		<p>Will play Gary come home at 1.5x speed!<br><br>
+			You can chain multiple filters as well:</p>
+		<p style="color:#6923ff">!play triple-1 nuclear winter | speed=0.75 reverse lowpass=1000</p>
+		<b>Average bot can handle many filters at once!</b>
+		<p><br>You can also change filters while the song plays:</p>
+		<p style="color:#6923ff">!| earrape volume=20 bass=20</p>
+		<p>You can only do this if you're a DJ/Bot Commander or if the current song was requested by you.</p>
+		<h2 id="projects">Available Filters!</h2>
+		
+		<p style="font-size:25px">| speed</p>
+		<p style="font-size:15px">Changes the speed of the song. (both pitch and tempo).<br> Speed must be in the 0.1x~10x range.</p>
+		
+		<p style="font-size:25px">| tempo</p>
+		<p style="font-size:15px">Changes the speed (tempo) of the song without altering the pitch. <br> Speed must be in the 0.5x~2x range.</p>
+		
+		<p style="font-size:25px">| reverse</p>
+		<p style="font-size:15px">Reverses the song.</p>
+		
+		<p style="font-size:25px">| echo</p>
+		<p style="font-size:15px">An exagerated reverb effect.</p>
+		
+		<p style="font-size:25px">| lowpass</p>
+		<p style="font-size:15px">Attenuates frequencies higher than the cutoff frequency.</p>
+		
+        <p style="font-size:25px">| highpass</p>
+		<p style="font-size:15px">Attenuates frequencies lower than the cutoff frequency.</p>
+		
+		<p style="font-size:25px">| bass</p>
+		<p style="font-size:15px">Bass Boost Filter. Use 20 for <b>maximum boost</b></p>
+		
+		<p style="font-size:25px">| treble</p>
+		<p style="font-size:15px">Like <a style="color:#6923ff">| bass</a>, but boosts the higher frequencies.</p>
+		
+		<p style="font-size:25px">| flanger</p>
+		<p style="font-size:15px">Flanger Effect. (trippy af if you use stereo headphones)</p>
+		
+		<p style="font-size:25px">| volume</p>
+		<p style="font-size:15px">Amplifies the song. (Also produces ear rape if used with high values)<br> Volume must be in the -40dB~40dB range.</p>
+		
+		<p style="font-size:25px">| karaoke</p>
+		<p style="font-size:15px">Attempts to remove all chorus in the song</p>
+		
+		<p style="font-size:25px">| chorus</p>
+		<p style="font-size:15px">Makes the audio sound like a chorus.</p>
+		
+		<p style="font-size:25px">| phaser</p>
+		<p style="font-size:15px">alien shit</p>
+		
+		<p style="font-size:25px">| tremolo</p>
+		<p style="font-size:15px">The volume goes constantly up and down.</p>
+		
+		<p style="font-size:25px">| loop</p>
+		<p style="font-size:15px">Loops a section of the audio.</p>
+		<p style="font-size:25px">You must use this format:</p>
+		<p style="font-size:15px;color:blue">loop=[start]-[end]-[number of loops]</p>
+		
+		<p style="font-size:25px">| nofx</p>
+		<p style="font-size:15px">dumb thing no one ever uses that prevents changest to current filters</p>
+		
+		<h2 id="projects">Filter Presets</h2>
+		
+		<p style="font-size:25px">| nightcore</p>
+		<p style="font-size:15px">Same as <a style="color:blue">speed=1.22</a>.</p>
+
+		<p style="font-size:25px">| vaporwave</p>
+		<p style="font-size:15px">Same as <a style="color:blue">speed=0.75</a>.</p>
+
+		<p style="font-size:25px">| earrape</p>
+		<p style="font-size:15px">Same as <a style="color:blue">volume=25</a>.</p>
+
+        </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+      <footer class="footer">
+        <div class="container">
+          <!-- <hr> -->
+          <p style="color:gray">Copyright 2018 AverageFriends.</p>
+          <p>
+            <a href="//www.youtube.com/AverageFriends" style="color:#a0a0a0;font-size:25px" class="fab fa-youtube" aria-hidden="true"></a><i style="visibility:hidden">---</i>
+            <a href="//discordapp.com/invite/BDRA9V" style="color:#a0a0a0;font-size:25px" class="fab fa-discord" aria-hidden="true"></a><i style="visibility:hidden">---</i>
+            <a href="//github.com/AverageFriends" style="color:#a0a0a0;font-size:25px" class="fab fa-github" aria-hidden="true"></a><i style="visibility:hidden">---</i>
+            <a href="//mixer.com/AverageFriends" style="color:#a0a0a0;font-size:25px" class="fa fa-video" aria-hidden="true"></a><i style="visibility:hidden">---</i>
+            <a href="//www.twitch.tv/averagefriends" style="color:#a0a0a0;font-size:25px" class="fab fa-twitch" aria-hidden="true"></a><i style="visibility:hidden">---</i>
+          </p>
+        </div>
+      </footer>
+<!-- </div> -->
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
