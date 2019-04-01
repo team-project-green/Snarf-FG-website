@@ -134,10 +134,11 @@ footer {
 
 @media only screen and (max-device-width: 480px) {
   .youtubeframe {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 100px;
-    width: 30em;
-    height: 23em;
+    width: 23em;
+    height: 18em;
     float: left;
   }
   }
