@@ -129,8 +129,24 @@ footer {
   padding-top: 1em;
   text-align:left;
   padding-left: 19vw;
+  padding-right: 40vw;
   float: none;
 }
+
+.infomain {
+  padding-left:15vw;
+  font-size:5em;
+  padding-right:15vw;
+  color:rgb(182, 182, 182);
+}
+
+.infoextra {
+  padding-left:17vw;
+  font-size:0.8em;color:
+  rgb(202, 202, 202);
+}
+
+
 
 @media only screen and (max-device-width: 480px) {
   .youtubeframe {
@@ -141,4 +157,26 @@ footer {
     height: 18em;
     float: left;
   }
+
+
+  
+.infotext {
+  color:rgb(182, 182, 182);
+  font-size: 0.9em;
+  padding-top: 1em;
+  text-align:left;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  float: none;
+}
+
+.infomain {
+  padding-left:15vw;
+  text-align:center;
+  font-size:3em;
+  padding-right:15vw;
+  color:rgb(182, 182, 182);
+}
+
+
   }
