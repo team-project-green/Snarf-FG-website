@@ -1,0 +1,20 @@
+.sidetext {
+    color: rgb(228, 228, 228);
+    text-align: center;
+    background: #0006;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.514);
+    padding: 20px;
+}
+.sidetext-heading {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sidetext-body {
+    font-size: 1.3em;
+}
+
+.video-showcase {
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.514);
+}
