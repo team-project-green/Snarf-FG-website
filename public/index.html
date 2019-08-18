@@ -49,21 +49,20 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="Home">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand text-white" href="Home">
             <!-- logo goes here -->
-            <img src="/res/Icon_T_C.png" alt="Home" title="Home">
+            <!--<img src="/res/Icon_T_C.png" alt="Home" title="Home">-->
+            Snarf
         </a>
-        <button style="border: 0px" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse"
+            aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-
         <div class="collapse navbar-collapse" id="navCollapse">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Projects.html">Projects</a>
@@ -79,39 +78,41 @@
     </nav>
 
     <main>
-        <div class="container-fluid">
-            <div class="col-md-4 float-md-right">
-                <!--Text/Info Portion-->
-                <div class="sidetext card">
-                    <h1 class="sidetext-heading">Welcome to My Website</h1>
-                    <p class="sidetext-body">I make GREAT fangames, like one I made called Luigi's Grand Adventure
-                        (thats the name right? who cares, just look at the video to the left.), and even though I'm
-                        not
-                        actually
-                        typing this, I'm paying my friend to do this whole thing for me and he is
-                        obliged to say good things about me.</p>
-                    <p class="sidetext-body">Anyway, I work in UE4 and need money so please donate thru patreon (icons
-                        down below)</p>
-                    <h1 class="sidetext-heading">Web dev is not my strongsuit.</h1>
-                    <p class="sidetext-body">I mean if it was I would have made this thing myself, right? Hm.
-                        I think the sarcastic web dev who actually IS making this website is getting a bit too
-                        cocky.
-                    </p>
-                    <h1 class="sidetext-heading">I'm honestly just trying to make the page scroll at this point.</h1>
+        <div class="container-fluid rp-lg">
+            <div class="row">
+                <div class="col-lg-8 h-100">
+                    <div class="video-showcase embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="100%"
+                            src="https://www.youtube.com/embed/Si7YoluMYzU" allowfullscreen></iframe>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-8 float-md-left">
-                <div class="video-showcase embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" width="560" height="315"
-                        src="https://www.youtube.com/embed/Si7YoluMYzU" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <div class="col-lg-4 mb-4">
+                    <!--Text/Info Portion-->
+                    <div class="sidetext card">
+                        <h1 class="sidetext-heading">Welcome to My Website</h1>
+                        <p class="sidetext-body">I make GREAT fangames, like one I made called Luigi's Grand Adventure
+                            (thats the name right? who cares, just look at the video to the left.), and even though I'm
+                            not
+                            actually
+                            typing this, I'm paying my friend to do this whole thing for me and he is
+                            obliged to say good things about me.</p>
+                        <p class="sidetext-body">Anyway, I work in UE4 and need money so please donate thru patreon
+                            (icons
+                            down below)</p>
+                        <h1 class="sidetext-heading">Web dev is not my strongsuit.</h1>
+                        <p class="sidetext-body">I mean if it was I would have made this thing myself, right? Hm.
+                            I think the sarcastic web dev who actually IS making this website is getting a bit too
+                            cocky.
+                        </p>
+                        <h1 class="sidetext-heading">I'm honestly just trying to make the page scroll at this point.
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>
 
     </main>
-    <footer class="footer bg-dark text-white-50">
+    <footer class="footer text-white-50 fixed-bottom p-2">
         <div class="social-icons">
             <div class="social-icons-youtube">
                 <a>

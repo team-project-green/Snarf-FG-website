@@ -18,3 +18,11 @@
 .video-showcase {
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.514);
 }
+
+@media (max-width: 991px) {
+    .video-showcase {
+        position: absolute;
+        left: 0;
+        width: 100vw;
+    }
+}
