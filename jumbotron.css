@@ -62,8 +62,11 @@ html {
   min-height: 100%;
 }
 
+
+
 body {
   margin-bottom: 100px;
+  width: 100%;
   background-color:rgb(23, 24, 58);
 }
 
@@ -80,10 +83,11 @@ footer {
 }
 
 .youtubeframe {
-  padding: 20px;
+  padding: 1.2vw;
+  white-space: nowrap;
   padding-top: 100px;
-  width: 75em;
-  height: 47em;
+  width: 67.5vw;
+  height: 44vw;
   float: left;
 }
 
@@ -94,26 +98,27 @@ footer {
 
 .sidetextbigtop {
   color:whitesmoke;
-  font-size: 2em;
-  padding-top: 4em;
+  font-size: 2vw;
+  padding-top: 100px;
   text-align: center;
   float: none;
 }
 
 .sidetextbig {
   color:whitesmoke;
-  font-size: 2em;
-  padding-top: 1.5em;
+  font-size: 2vw;
+  padding-top: 1vw;
   text-align: center;
   float: none;
 }
 
 .sidetextsmall {
   color:whitesmoke;
-  font-size: 1em;
-  padding-top: 1em;
+  font-size: 1vw;
+  white-space: normal;
+  padding-top: 0.2vw;
   text-align:center;
-  padding-right: 1.5em;
+  padding-right: 1vw;
   float: none;
 }
 
