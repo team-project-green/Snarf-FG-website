@@ -96,8 +96,39 @@ footer {
   padding-top: 100px;
 }
 
-.sidetextbigtop {
+.smalltext {
   color:whitesmoke;
+  font-size: 1vw;
+  padding-left:14vw;
+  float: none;
+}
+
+.workshoptext {
+  color:#DCDDDE;
+  font-size: 1vw;
+  padding-left:14vw;
+  float: none;
+}
+
+.workshoptitle {
+  color:#268BD2;
+  font-size:1.4vw;
+  padding-top:5vh;
+  padding-left:14vw;
+  float: none;
+}
+
+.workshopimage {
+  color:#268BD2;
+  width:75%;
+  height:75%;
+  padding-top:1vh;
+  padding-left:14vw;
+  float: none;
+}
+
+.sidetextbigtop {
+  color:#DCDDDE;
   font-size: 2vw;
   padding-top: 100px;
   text-align: center;
@@ -126,6 +157,12 @@ footer {
   font-size:3.5rem;
   font-weight:300;
   line-height:1.1
+}
+
+.footertext {
+  color:gray;
+  font-size: 1vw;
+  float: none;
 }
 
 .infotext {
